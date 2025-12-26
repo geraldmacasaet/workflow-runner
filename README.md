@@ -51,6 +51,13 @@ A robust, real-time workflow automation engine built with **Laravel 12**, **Reac
    php artisan serve
    ```
 
+## Registration & Authentication
+
+The application uses **Laravel Fortify** for secure authentication.
+- **Sign Up**: Navigate to `/register` to create a new account.
+- **Basic Fields**: Registration requires only **Name**, **Email**, and **Password**.
+- **Login**: Existing users can sign in at `/login`.
+
 ## Testing
 
 The project includes feature tests for workflows, steps, and run logic.
